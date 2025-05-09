@@ -1,6 +1,6 @@
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_BASE_URL ||
-  "https://aisummary-api-usc-geemebfqfmead8f4.centralus-01.azurewebsites.net"
+  "https://aisummry-demo-e7axcsf5e2g5hfbc.centralus-01.azurewebsites.net/"
 // "https://aisummary-api-fue6a9gxabdceng4.canadacentral-01.azurewebsites.net"
 
 const API_BASE_URL_AISEARCH =
