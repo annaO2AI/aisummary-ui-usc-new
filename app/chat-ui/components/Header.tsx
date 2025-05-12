@@ -37,15 +37,15 @@ export default function HeaderAISearch() {
             <img src="/Otow-log.svg" alt="Otow Logo" width={100} />
           </div>
           <nav className="hidden md:flex space-x-6">
-          <Link href="/" className="text-gray-700 hover:text-black transition">
+          {/* <Link href="/" className="text-gray-700 hover:text-black transition">
             Home
-          </Link>
+          </Link> */}
 
           <Link
             href="/chat-ui"
             className="text-gray-700 hover:text-black transition"
           >
-            Chat
+           AI ChatBot
           </Link>
           <Link
             href="/about"

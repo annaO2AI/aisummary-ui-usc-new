@@ -69,15 +69,15 @@ export default function Header({ sidebarOpen }: HeaderProps) {
 
         <nav className="hidden md:flex space-x-6">
           <Link href="/" className="text-gray-700 hover:text-black transition">
-            Home
+            Call Summary
           </Link>
 
-          <Link
+          {/* <Link
             href="/chat-ui"
             className="text-gray-700 hover:text-black transition"
           >
             Chat
-          </Link>
+          </Link> */}
           <Link
             href="/about"
             className="text-gray-700 hover:text-black transition"
